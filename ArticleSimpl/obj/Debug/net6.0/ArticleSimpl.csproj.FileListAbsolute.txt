@@ -1,0 +1,15 @@
+C:\Users\Taliq\OneDrive\Documents\Codage\ArticleSimpl\ArticleSimpl\bin\Debug\net6.0\ArticleSimpl.exe
+C:\Users\Taliq\OneDrive\Documents\Codage\ArticleSimpl\ArticleSimpl\bin\Debug\net6.0\ArticleSimpl.deps.json
+C:\Users\Taliq\OneDrive\Documents\Codage\ArticleSimpl\ArticleSimpl\bin\Debug\net6.0\ArticleSimpl.runtimeconfig.json
+C:\Users\Taliq\OneDrive\Documents\Codage\ArticleSimpl\ArticleSimpl\bin\Debug\net6.0\ArticleSimpl.dll
+C:\Users\Taliq\OneDrive\Documents\Codage\ArticleSimpl\ArticleSimpl\bin\Debug\net6.0\ArticleSimpl.pdb
+C:\Users\Taliq\OneDrive\Documents\Codage\ArticleSimpl\ArticleSimpl\obj\Debug\net6.0\ArticleSimpl.csproj.AssemblyReference.cache
+C:\Users\Taliq\OneDrive\Documents\Codage\ArticleSimpl\ArticleSimpl\obj\Debug\net6.0\ArticleSimpl.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Taliq\OneDrive\Documents\Codage\ArticleSimpl\ArticleSimpl\obj\Debug\net6.0\ArticleSimpl.AssemblyInfoInputs.cache
+C:\Users\Taliq\OneDrive\Documents\Codage\ArticleSimpl\ArticleSimpl\obj\Debug\net6.0\ArticleSimpl.AssemblyInfo.cs
+C:\Users\Taliq\OneDrive\Documents\Codage\ArticleSimpl\ArticleSimpl\obj\Debug\net6.0\ArticleSimpl.csproj.CoreCompileInputs.cache
+C:\Users\Taliq\OneDrive\Documents\Codage\ArticleSimpl\ArticleSimpl\obj\Debug\net6.0\ArticleSimpl.dll
+C:\Users\Taliq\OneDrive\Documents\Codage\ArticleSimpl\ArticleSimpl\obj\Debug\net6.0\refint\ArticleSimpl.dll
+C:\Users\Taliq\OneDrive\Documents\Codage\ArticleSimpl\ArticleSimpl\obj\Debug\net6.0\ArticleSimpl.pdb
+C:\Users\Taliq\OneDrive\Documents\Codage\ArticleSimpl\ArticleSimpl\obj\Debug\net6.0\ArticleSimpl.genruntimeconfig.cache
+C:\Users\Taliq\OneDrive\Documents\Codage\ArticleSimpl\ArticleSimpl\obj\Debug\net6.0\ref\ArticleSimpl.dll
