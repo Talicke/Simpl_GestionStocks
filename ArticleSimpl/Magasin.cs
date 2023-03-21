@@ -7,6 +7,9 @@ using System.Threading.Tasks;
 
 namespace ArticleSimpl
 {
+    /// <summary>
+    /// Contient une collection, contenant tout les articles. 
+    /// </summary>
     internal class Magasin
     {
         public Dictionary<int, Article> Articles { get; set; }
@@ -17,6 +20,11 @@ namespace ArticleSimpl
 
         }
 
+        /// <summary>
+        /// Trouve un articles avec sa reférence dans la collection
+        /// </summary>
+        /// <param name="refArticle"></param>
+        /// <returns>bool</returns>
         public bool findByRef(int refArticle)
         {
             if (Articles.ContainsKey(refArticle))
@@ -26,6 +34,11 @@ namespace ArticleSimpl
             return false;
         }
 
+        /// <summary>
+        /// Trouve le premier article dans la collection correspondant au nom en parametre
+        /// </summary>
+        /// <param name="nomArticle"></param>
+        /// <returns>Article</returns>
         public Article findByNom(string nomArticle)
         {
             Article article = new Article();
@@ -39,6 +52,10 @@ namespace ArticleSimpl
             return article;
         }
 
+        /// <summary>
+        /// Ajouter un article à la collection
+        /// </summary>
+        /// <param name="article"></param>
         public void addArticle(Article article)
         {
             if(!this.findByRef(article.Reference))
@@ -51,6 +68,10 @@ namespace ArticleSimpl
             }
         }
 
+        /// <summary>
+        /// Supprime un article de la collection
+        /// </summary>
+        /// <param name="articleRef"></param>
         public void removeArticle(int articleRef)
         {
             if(this.findByRef(articleRef))
@@ -63,6 +84,11 @@ namespace ArticleSimpl
             }
         }
 
+        /// <summary>
+        /// trouve un article dans la collection avec la référence et le replace par un nouveau 
+        /// </summary>
+        /// <param name="articleRef"></param>
+        /// <param name="newArticle"></param>
         public void updateArticle(int articleRef, Article newArticle)
         {
             if (this.findByRef(articleRef)){
@@ -70,6 +96,12 @@ namespace ArticleSimpl
             }
         }
 
+        /// <summary>
+        /// trouve tout les articles dans la collection compris entre prixMin et prixMax
+        /// </summary>
+        /// <param name="prixMin"></param>
+        /// <param name="prixMax"></param>
+        /// <returns>List d'articles</returns>
         public List<Article> findByPrice(int prixMin, int prixMax)
         {
             List<Article> listArticle = new List<Article>();
@@ -83,6 +115,10 @@ namespace ArticleSimpl
             return listArticle;
         }
 
+        /// <summary>
+        /// Permet de créer un nombre n d'article fictif
+        /// </summary>
+        /// <param name="nbArticle"></param>
         public void CreerArticleFictif(int nbArticle)
         {
             

@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace ArticleSimpl
 {
+    /// <summary>
+    /// Class permettant de créer des objets Articles.
+    /// </summary>
     internal class Article
     {
         public int Reference { get; set; }
@@ -19,6 +22,10 @@ namespace ArticleSimpl
         
         }
 
+        /// <summary>
+        /// Réecriture de la methode ToString de la methode ToString
+        /// </summary>
+        /// <returns>String</returns>
         public override string ToString()
         {
             return $"Référence Article : {this.Reference} \n" +

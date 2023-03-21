@@ -18,14 +18,16 @@ cli.Magasin.CreerArticleFictif(10);
     Console.Clear();
         switch (input)
         {
+            case 0:
+            Console.WriteLine("bonne journée");
+            break;
+
             case 1:                    
             Console.WriteLine(cli.rechercherArticleParRef());
             break;
 
             case 2:
-                            
             cli.Magasin.addArticle(cli.creerArticle());
-
             break;
 
             case 3:
